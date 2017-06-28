@@ -34,4 +34,7 @@
     .col-#{$columns}{
         width: columnsWidth($columns);
     }
+    .offset-#{$columns}{
+        margin-left: columnsWidth($columns);
+    }
 }
