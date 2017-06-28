@@ -15,3 +15,24 @@ ul{
         padding: 0 10px;
     }
 }
+.font {
+    font-family: $font;
+    font-weight: 500;
+    color: $title-gray;
+    margin-bottom: 15px;
+}
+h2{ 
+    @extend .font;
+    font-size: $title-size;    
+}
+h4{
+    @extend .font;
+    font-size: $subtitle-size;
+}
+h5{
+   @extend .font; 
+}
+p{
+    @extend .font;
+    font-size: $text-size;
+}

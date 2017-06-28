@@ -102,4 +102,19 @@ ul li {
   color: #424242;
   padding: 0 10px; }
 
+.font, h2, h4, h5, p {
+  font-family: "Product Sans";
+  font-weight: 500;
+  color: #424242;
+  margin-bottom: 15px; }
+
+h2 {
+  font-size: 46px; }
+
+h4 {
+  font-size: 24px; }
+
+p {
+  font-size: 18px; }
+
 /*# sourceMappingURL=main.css.map */
