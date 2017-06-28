@@ -1,1 +1,17 @@
 @import 'grid';
+@import 'variable';
+
+header{
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+}
+ul{
+    li{
+        display: inline;
+        list-style: none;
+        color: $title-gray;
+        padding: 0 10px;
+    }
+}
