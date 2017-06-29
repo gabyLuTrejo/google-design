@@ -90,6 +90,30 @@
 .offset-12 {
   margin-left: 100%; }
 
+.space-right, .cardL-1, .cardL-2, .cardL-3 {
+  padding-right: 35px; }
+
+.space-left, .cardR-1, .cardR-2, .cardR-3 {
+  padding-left: 35px; }
+
+.cardL-1 {
+  margin: 50px 0; }
+
+.cardR-1 {
+  margin: 50px 0; }
+
+.cardL-2 {
+  margin: 50px 0; }
+
+.cardR-2 {
+  margin: 50px 0; }
+
+.cardL-3 {
+  margin: 50px 0; }
+
+.cardR-3 {
+  margin: 50px 0; }
+
 header {
   margin: 50px 0 80px; }
 
@@ -138,6 +162,9 @@ h5 {
   font-size: 0.875rem;
   color: #5f6368;
   margin-bottom: 20px; }
+  h5 .material-icons {
+    vertical-align: middle;
+    font-size: 20px; }
 
 h6 {
   font-family: "Roboto";
@@ -173,12 +200,6 @@ p {
   height: auto;
   display: block;
   margin-bottom: 20px; }
-
-.space-right {
-  padding: 50px; }
-
-.space-left {
-  padding-left: 50px; }
 
 .text-overflow {
   overflow: hidden;

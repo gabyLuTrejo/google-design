@@ -1,0 +1,17 @@
+.space-right{
+    padding-right: 35px;
+}
+.space-left{
+    padding-left: 35px;
+}
+
+@for $image from 1 through 3{
+    .cardL-#{$image}{
+        @extend .space-right;
+        margin: 50px 0;        
+    }
+    .cardR-#{$image}{
+        @extend .space-left;
+        margin: 50px 0;
+    }
+}
