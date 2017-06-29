@@ -1,38 +1,92 @@
 @import 'grid';
 @import 'variable';
 
+@mixin font($font, $weight, $size, $color) {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+}
+
 header{
-    margin-top: 50px;
+    margin: 50px 0 80px;
 }
 .center{
     text-align: center;
 }
+.search{
+    position: absolute;
+    right: 100px;
+}
 ul{
+    padding-top: 15px;
     li{
         display: inline;
         list-style: none;
-        color: $title-gray;
+        @include font($font-text, 600, 100%, $title-gray);
         padding: 0 10px;
     }
 }
-.font {
-    font-family: $font;
-    font-weight: 500;
-    color: $title-gray;
-    margin-bottom: 15px;
-}
+
 h2{ 
-    @extend .font;
-    font-size: $title-size;    
+    @include font($font-Hs, 500, $title-size, $title-gray);
+    margin-bottom: 20px;
+}
+h3{
+    @include font($font-Hs, 500, $title2-size, $title-gray);
+    margin-bottom: 20px;
 }
 h4{
-    @extend .font;
-    font-size: $subtitle-size;
+    @include font($font-Hs, 500, $subtitle-size, $title-gray);
+    margin-bottom: 20px;
 }
 h5{
-   @extend .font; 
+    @include font($font-date, 500, $tag-size, $date-gray);
+    margin-bottom: 20px;
+}
+h6{
+    @include font($font-text, 600, $tag-size, $blue);
+    margin-bottom: 20px;
 }
 p{
-    @extend .font;
-    font-size: $text-size;
+    @include font($font-text, 500, $text-size, $text-gray);
+    margin-bottom: 20px;
+    &.p-title{
+        color: $title-gray;
+        font-weight: 800;
+    }
+    &.p-link{
+        color: $blue;
+    }
+}
+.blue{
+    border: 2px solid $blue;
+    margin: 60px 0 10px 0;
+}
+.inline{
+    display: inline;
+}
+.right{
+    float: right;
+}
+.resp-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.space-right{
+    padding: 50px;
+}
+.space-left{
+    padding-left: 50px;
+}
+.text-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 60px;
+}
+.cube{
+    background: #f1f3f4;
+    padding: 10px;
 }

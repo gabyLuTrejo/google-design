@@ -4,7 +4,7 @@
   padding: 0; }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0px auto; }
 
 .row:before, .row:after {
@@ -91,30 +91,102 @@
   margin-left: 100%; }
 
 header {
-  margin-top: 50px; }
+  margin: 50px 0 80px; }
 
 .center {
   text-align: center; }
 
-ul li {
-  display: inline;
-  list-style: none;
-  color: #424242;
-  padding: 0 10px; }
+.search {
+  position: absolute;
+  right: 100px; }
 
-.font, h2, h4, h5, p {
-  font-family: "Product Sans";
-  font-weight: 500;
-  color: #424242;
-  margin-bottom: 15px; }
+ul {
+  padding-top: 15px; }
+  ul li {
+    display: inline;
+    list-style: none;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 100%;
+    color: #424242;
+    padding: 0 10px; }
 
 h2 {
-  font-size: 46px; }
+  font-family: "Product Sans";
+  font-weight: 500;
+  font-size: 2.25rem;
+  color: #424242;
+  margin-bottom: 20px; }
+
+h3 {
+  font-family: "Product Sans";
+  font-weight: 500;
+  font-size: 24px;
+  color: #424242;
+  margin-bottom: 20px; }
 
 h4 {
-  font-size: 24px; }
+  font-family: "Product Sans";
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #424242;
+  margin-bottom: 20px; }
+
+h5 {
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #5f6368;
+  margin-bottom: 20px; }
+
+h6 {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #4285f4;
+  margin-bottom: 20px; }
 
 p {
-  font-size: 18px; }
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #414549;
+  margin-bottom: 20px; }
+  p.p-title {
+    color: #424242;
+    font-weight: 800; }
+  p.p-link {
+    color: #4285f4; }
+
+.blue {
+  border: 2px solid #4285f4;
+  margin: 60px 0 10px 0; }
+
+.inline {
+  display: inline; }
+
+.right {
+  float: right; }
+
+.resp-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px; }
+
+.space-right {
+  padding: 50px; }
+
+.space-left {
+  padding-left: 50px; }
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 60px; }
+
+.cube {
+  background: #f1f3f4;
+  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
