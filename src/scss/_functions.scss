@@ -5,7 +5,7 @@
     padding-left: 35px;
 }
 
-@for $image from 1 through 3{
+@for $image from 1 through 6{
     .cardL-#{$image}{
         @extend .space-right;
         margin: 50px 0;        
